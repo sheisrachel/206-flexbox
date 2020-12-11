@@ -105,7 +105,6 @@ body {
   font-family: 'Questrial', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
-  height: 100%;
   color: #fff;
   display: flex;
 }
@@ -115,6 +114,7 @@ header {
     font-size: 3rem;
     letter-spacing: .20rem;
     word-spacing: .30rem;
+    text-align: center;
 }
 header,
 footer {
@@ -161,8 +161,7 @@ p span {
   align-items: center;
   color: #fff;
   background-color: #5A042A;
-  width: 30%;
-  height: 30%;
+  width: 100%;
 }
 
 .flex-items p {
