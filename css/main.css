@@ -158,6 +158,7 @@ p span {
 .content-wrapper {
     display: flex;
     background-color: #5A042A;
+    flex-direction: column;
 }
 
 .flex-items {
@@ -262,7 +263,11 @@ footer {
 /* If you'd like to try a different layout on Desktop and larger screens: */
 
 @media (min-width: 768px) {
-  .flex-items {
+  .content-wrapper {
+      flex-direction: row;
+  }
+  
+    .flex-items {
     width: 33.3%;
   }
 }
